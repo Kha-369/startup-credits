@@ -1,0 +1,13 @@
+{
+  "summary": "Added Oracle (slug oracle) as a new Entity with one Offer, Oracle for Startups Program: $500 in free Oracle Cloud credits (option to apply for more) plus a 70% discount on Oracle Cloud Infrastructure from day one for qualifying startups.",
+  "observations": [
+    "PR https://github.com/sourcey/startup-credits/pull/2130 adds exactly one file: entities/or/oracle.yaml (data-only, DCO signed-off).",
+    "Oracle was absent from the repository 620 existing Entity files before this PR.",
+    "Source: Oracle own document https://www.oracle.com/a/ocom/docs/free-cloud.pdf states $500 of free cloud credits (with the option to apply for more) and 70% discount on cloud from day 1; sign-up at oracle.com/startup; benefits for qualifying startups.",
+    "GitHub account @kha-369 starred sourcey/startup-credits before delivery (claim eligibility).",
+    "Offer modeled with category hosting-infra, standalone Offer (no Program), economics $500 credits + 70% discount, access via public form at oracle.com/startup."
+  ],
+  "pr_url": "https://github.com/sourcey/startup-credits/pull/2130",
+  "entity_slug": "oracle",
+  "source_url": "https://www.oracle.com/a/ocom/docs/free-cloud.pdf"
+}
