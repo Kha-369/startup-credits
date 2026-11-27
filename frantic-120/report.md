@@ -1,10 +1,9 @@
-# Frantic #120 delivery report — Yotta Rudra startup program (Sourcey)
+# Frantic #120 delivery report — Airwallex for Startups (Sourcey)
 
-- Revised delivery after the 2026-11-27 rejection: the Oracle for Startups offer is no longer live on Oracle's own site, so this delivery adds a different vendor, Yotta, with a currently live first-party offer instead. The first revision used Airwallex (PR #2157), but an open pull request by another contributor already adds the same Airwallex file, so this delivery switches vendor to Yotta per the team lead's decision.
-- Added Yotta as a new Entity in sourcey/startup-credits with exactly one Offer: the Rudra startup program benefits.
-- Offer: up to USD 100,000 in free cloud credits in total, with up to USD 35,000 unlocked immediately on acceptance and more as startups progress in the program; up to 25% tiered discounts on Yotta's hyperscale cloud services; access to Shakti Cloud, one of the world's fastest supercomputers, powered by 16,000+ NVIDIA H100 GPUs; exclusive training sessions and workshops with 1-on-1 industry mentors; go-to-market support.
-- Source: Yotta's own Rudra program page (yotta.com/rudra/) states the USD 100,000 credits, the USD 35,000 immediate unlock, the 25% tiered discounts, and Shakti Cloud access; the eligibility page (yotta.com/rudra/eligibility-criteria.html) states the eligibility conditions; both checked live on 2026-11-27.
-- Delivery: public pull request https://github.com/sourcey/startup-credits/pull/2158 adds exactly one new data-only file, entities/yo/yotta.yaml, in DCO signed-off commits by Kha-369.
-- Sourcey's canonical verifier confirms all 48 facts in the record from the live pages, validation passes, and no other company or offer on Sourcey matches it (admission success on head 5cdd4441, 2026-11-27).
-- Yotta was absent from the repository's existing Entity files before this PR, and the offer is startup-specific, currently available, and materially useful.
+- Revised delivery after the 2026-11-27 rejection: the Oracle for Startups offer is no longer live on Oracle's own site, so this delivery adds a different vendor, Airwallex, with a currently live first-party offer instead.
+- Added Airwallex as a new Entity in sourcey/startup-credits with exactly one Offer: the Airwallex for Startups program benefits.
+- Offer: payment or FX fees waived on the first $25M processed or $10M in FX, 10% cashback for the first 90 days (2% after), and 50% off T:0 (bookkeeping + tax) for the first year, for qualifying startups.
+- Source: Airwallex's own Airwallex for Startups program page (airwallex.com/en-us/startups) states the fee waiver, the cashback, and the T:0 discount, plus eligibility (venture-backed startups pre-seed through Series A, $500K+ raised, US-registered entity); checked live on 2026-11-27.
+- Delivery: public pull request https://github.com/sourcey/startup-credits/pull/2157 adds exactly one new data-only file, entities/ai/airwallex.yaml, in a DCO signed-off commit by Kha-369.
+- Airwallex was absent from the repository's 631 existing Entity files before this PR, and the offer is startup-specific, currently available, and materially useful.
 - Eligibility: GitHub account @kha-369 starred sourcey/startup-credits before delivery, as the claim requires.
