@@ -1,13 +1,1 @@
-{
-  "summary": "Added Oracle (slug oracle) as a new Entity with one Offer, Oracle for Startups Program: $500 in free Oracle Cloud credits (option to apply for more) plus a 70% discount on Oracle Cloud Infrastructure from day one for qualifying startups.",
-  "observations": [
-    "PR https://github.com/sourcey/startup-credits/pull/2130 adds exactly one file: entities/or/oracle.yaml (data-only, DCO signed-off).",
-    "Oracle was absent from the repository 620 existing Entity files before this PR.",
-    "Source: Oracle own document https://www.oracle.com/a/ocom/docs/free-cloud.pdf states $500 of free cloud credits (with the option to apply for more) and 70% discount on cloud from day 1; sign-up at oracle.com/startup; benefits for qualifying startups.",
-    "GitHub account @kha-369 starred sourcey/startup-credits before delivery (claim eligibility).",
-    "Offer modeled with category hosting-infra, standalone Offer (no Program), economics $500 credits + 70% discount, access via public form at oracle.com/startup."
-  ],
-  "pr_url": "https://github.com/sourcey/startup-credits/pull/2130",
-  "entity_slug": "oracle",
-  "source_url": "https://www.oracle.com/a/ocom/docs/free-cloud.pdf"
-}
+{"entity_slug":"airwallex","observations":["PR https://github.com/sourcey/startup-credits/pull/2157 adds exactly one file: entities/ai/airwallex.yaml (data-only, DCO signed-off).","Airwallex was absent from the repository 631 existing Entity files before this PR.","Source: Airwallex own program page https://www.airwallex.com/en-us/startups states the fee waiver on first $25M processed or $10M in FX, 10% cashback for the first 90 days (2% after), and 50% off T:0 for the first year; eligibility is venture-backed startups pre-seed through Series A, $500K+ raised, US-registered entity; checked live 2026-11-27.","GitHub account @kha-369 starred sourcey/startup-credits before delivery (claim eligibility).","Offer modeled with category payments-fintech, Program Airwallex for Startups, economics fee waiver + cashback + 50% discount, access via public form at airwallex.com/en-us/startups."],"pr_url":"https://github.com/sourcey/startup-credits/pull/2157","source_url":"https://www.airwallex.com/en-us/startups","summary":"Added Airwallex (slug airwallex) as a new Entity with one Offer, Airwallex for Startups program benefits: payment or FX fees waived on the first $25M processed or $10M in FX, 10% cashback for the first 90 days (2% after), and 50% off T:0 bookkeeping and tax for the first year for qualifying startups. This revises the rejected Oracle entry: the Oracle offer is no longer live on Oracle's own site."}
